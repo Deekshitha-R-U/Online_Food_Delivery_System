@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: rgb(255, 251, 247);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .login__container {
+            background-image: url('C:/Images/heroSectionBackground.png');
+            background-size: cover;
+            background-position: center;
+            width: 400px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px 5px #A0A0A0;
+        }
+
+        .login__heading {
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .login__input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .login__button {
+            background: rgb(239, 79, 95);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .login__button:hover {
+            background: red;
+        }
+
+        .login__link {
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+            text-decoration: none;
+        }
+    </style>
+    <title>Zomato Login</title>
+</head>
+<body>
+    <div class="login__container">
+        <h1 class="login__heading">Login to Zomato</h1>
+        <input type="text" class="login__input" placeholder="Username or Email">
+        <input type="password" class="login__input" placeholder="Password">
+        <button class="login__button">Login</button>
+        <a href="#" class="login__link">Forgot Password?</a>
+    </div>
+</body>
+</html>
